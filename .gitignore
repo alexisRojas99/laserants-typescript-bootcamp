@@ -1,0 +1,26 @@
+# dependencies
+poetry.lock
+yarn-error.log
+.env.*
+!.env.example
+
+# directories
+.vscode/
+.venv/
+coverage/
+build/
+dist/
+__pycache__/
+logs/
+
+# files
+test-report.xml
+*.zip
+.scannerwork/
+
+# other
+.DS_Store
+
+# Docs
+index.yaml
+*collections.json
