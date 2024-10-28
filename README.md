@@ -1,9 +1,29 @@
-# laserants-typescript-bootcamp
+# Laserants TypeScript Bootcamp
 
-Laserants TypeScript Bootcamp
+Welcome to the **Laserants TypeScript Bootcamp** repository!
 
-Hi, my name is **Oscar Alexis Rojas Estrada**.
+## Table of Contents
 
-This is my first change from my local repository.
+- [Introduction](#introduction)
+- [Changes Made](#changes-made)
+- [GitHub Results](#github-results)
+  - [Task 1](#task-1)
 
-This is my change as Pull Request.
+## Introduction
+
+Hello, my name is **Oscar Alexis Rojas Estrada**.
+
+This repository contains my progress and the projects developed during the TypeScript Bootcamp organized by Laserants.
+
+## Changes Made
+
+- **First Local Change**: This is my first change from my local repository.
+- **Change as Pull Request**: This is my change submitted as a Pull Request.
+
+## GitHub Results
+
+### Task 1
+
+[Evidence (Download PDF)](<docs/Laserants TypeScript Bootcamp - Oscar Alexis Rojas Estrada - task 1.pdf>)
+
+---
