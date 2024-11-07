@@ -1,0 +1,138 @@
+.app {
+  width: 700px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #6c7084;
+}
+
+.container {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.noTasks {
+  display: flex;
+  min-height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.noTasks span {
+  color: #6c7084;
+}
+
+.todoList {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  min-height: 200px;
+  border: solid 1px #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  padding: 40px;
+}
+
+.todoList .taskDesc {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.completed:focus {
+  box-shadow: none;
+}
+
+.deleteButton {
+  margin-left: 10px;
+  cursor: pointer;
+  color: red;
+  background: none;
+  border: none;
+}
+
+.deleteButton:hover {
+  background-color: none !important;
+  box-shadow: none !important;
+}
+
+/* MODAL STYLES */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: 400px;
+  padding: 20px;
+  background-color: #ecedf6;
+  border-radius: 5px;
+  outline: none;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titleTask {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* GENERAL STYLES */
+
+button {
+  cursor: pointer;
+  background-color: #686eec;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  color: black;
+  font-size: 1em;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid #686eec;
+  box-shadow: 0 0 5px #686eec;
+}
