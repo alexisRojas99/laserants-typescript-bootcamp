@@ -3,6 +3,7 @@ poetry.lock
 yarn-error.log
 .env.*
 !.env.example
+node_modules/
 
 # directories
 .vscode/
@@ -17,6 +18,7 @@ logs/
 test-report.xml
 *.zip
 .scannerwork/
+package-lock.json
 
 # other
 .DS_Store
